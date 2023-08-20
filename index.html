@@ -45,6 +45,23 @@
     top: 335px" type="text" id="search" placeholder="search" onchange="search()">
      
     <!--<table id="currency_table"></table> -->
+<body>
+    <h1>Currency Exchange</h1>
+
+    <input type="text" id="amount_1" placeholder="Amount of Currency to be Converted">
+    <select id="currency_1"></select>
+    <span id="amount_2">00.00</span>
+    <select id="currency_2"></select>
+    <button id="convert_currency_1_currency_2">Convert</button>
+
+    <input type="text" id="search" placeholder="search for currency here">
+    <br>
+    
+    <h2>Popular Currencies</h2>
+    <table id="popular_currency_table"></table>
+    <h2>Currencies Table</h2>
+    <button onclick="toggleTable()">Toggle Full Table</button>
+    <table id="currency_table"></table>
     
     <script src="index.js"></script>
 </body>
