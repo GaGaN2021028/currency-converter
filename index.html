@@ -17,7 +17,6 @@
         }
         h1 {
         text-shadow: 2px 2px #131110;
-        
         }
         body {
          background-image: url("images.png") ;
@@ -30,8 +29,7 @@
     </style>
 </head>
 <body >
-    <h1 style="color:whitesmoke;position: absolute; left: 425px;
-    top: 235px; ">Currency Convertor</h1>
+    <h1 style="color:rgb(255, 255, 255); position: absolute; left: 425px;top: 235px; ">Currency Convertor</h1>
     
     <input style="position: absolute; left: 352px; top: 300px; width: 200px; height: 25px;" type="text" id="amount_1" placeholder="Amount of Currency to be Converted" >
     <select style="position: absolute; left: 567px; top: 302px; width: 25px; height: 25px;"id="currency_1"></select>
@@ -42,24 +40,13 @@
     <span style="position: absolute; left: 694px; background-color:#ffffff; top: 302px ; width: 45px; height: 25px;" id="amount_2">00.00</span>
     
     <input style="position: absolute; left: 500px;
-    top: 335px" type="text" id="search" placeholder="search" onchange="search()">
+    top: 335px" type="text" id="search" placeholder="search for currency here" onchange="search()">
      
-    <!--<table id="currency_table"></table> -->
-<body>
-    <h1>Currency Exchange</h1>
-
-    <input type="text" id="amount_1" placeholder="Amount of Currency to be Converted">
-    <select id="currency_1"></select>
-    <span id="amount_2">00.00</span>
-    <select id="currency_2"></select>
-    <button id="convert_currency_1_currency_2">Convert</button>
-
-    <input type="text" id="search" placeholder="search for currency here">
     <br>
     
-    <h2>Popular Currencies</h2>
+    <h2 style="color:rgb(255, 255, 255);" >Popular Currencies</h2>
     <table id="popular_currency_table"></table>
-    <h2>Currencies Table</h2>
+    <h2 style="color:rgb(255, 255, 255);">Currencies Table</h2>
     <button onclick="toggleTable()">Toggle Full Table</button>
     <table id="currency_table"></table>
     
